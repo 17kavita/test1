@@ -137,7 +137,7 @@ $(document).ready(function(){
     $.post("insert.php",
     values,
     function(data,status){
-     console.log("Data: " + data + "\nStatus: " + status); 
+    //  console.log("Data: " + data + "\nStatus: " + status); 
      $('#addModal').modal('toggle');
     });
   });
